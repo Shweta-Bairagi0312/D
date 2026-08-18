@@ -4,7 +4,7 @@ class ST4{
     public static String reverseString(String str){
         Stack<Character>st = new Stack<>();
         int idx = 0;
-        while(idx<str.length()-1){
+        while(idx<str.length()){
             st.push(str.charAt(idx));
             idx++;
         }
